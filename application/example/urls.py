@@ -1,6 +1,6 @@
 # example/urls.py
 from django.urls import path, include
-from example.views import (
+from .views import (
     Index,
 )
 from django.contrib.auth import views as auth_views
